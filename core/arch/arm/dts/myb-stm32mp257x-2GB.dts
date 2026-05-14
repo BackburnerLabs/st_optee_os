@@ -13,8 +13,8 @@
 #include "stm32mp25xxai-pinctrl.dtsi"
 
 / {
-	model = "STMicroelectronics STM32MP257F-EV1 Evaluation Board";
-	compatible = "st,stm32mp257f-ev1", "st,stm32mp257";
+	model = "MYiR MYD-LD25X STM32MP257x Evaluation Board (2GB)";
+	compatible = "st,myb-stm32mp257x-2GB", "myir,myb-stm32mp257x-2GB", "myir,myd-ld25x", "st,stm32mp257";
 
 	aliases {
 		serial0 = &usart2;

@@ -4,7 +4,7 @@ flavor_dts_file-257F_DK = stm32mp257f-dk.dts
 flavor_dts_file-257F_EV1 = stm32mp257f-ev1.dts
 flavor_dts_file-257X_MYB2GB = myb-stm32mp257x-2GB.dts
 flavor_dts_file-257X_MYB1GB = myb-stm32mp257x-1GB.dts
-flavor_dts_file-SAVERS_MYD_LF25X = savers-myd-lf25x.dts
+flavor_dts_file-SAVERS_MYD_LF25X = savers-myd-lf25x-stm32mp257x.dts
 
 flavorlist-MP25 = $(flavor_dts_file-257F_DK) \
                   $(flavor_dts_file-257X_MYB2GB) \
